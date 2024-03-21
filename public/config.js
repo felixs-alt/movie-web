@@ -1,7 +1,7 @@
 window.__CONFIG__ = {
   // The URL for the CORS proxy, the URL must NOT end with a slash!
   // If not specified, the onboarding will not allow a "default setup". The user will have to use the extension or set up a proxy themselves
-  VITE_CORS_PROXY_URL: "moonlit-kitten-825567.netlify.app",
+  VITE_CORS_PROXY_URL: "https://moonlit-kitten-825567.netlify.app",
 
   // The READ API key to access TMDB
   VITE_TMDB_READ_API_KEY: "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYjJmM2ExZmM5ZTViNTNiZDM5OWE2MTRjNmMyMTIyOSIsInN1YiI6IjY1ZmJmMzg3MDQ3MzNmMDE3ZGU4MDM4ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.AraXGEBikMd6P4esKCJuQAIpi92sYW_6uNfgu4OQjKk",
@@ -13,7 +13,7 @@ window.__CONFIG__ = {
   VITE_NORMAL_ROUTER: false,
 
   // The backend URL to communicate with
-  VITE_BACKEND_URL: "fly",
+  VITE_BACKEND_URL: null,
 
   // A comma separated list of disallowed IDs in the case of a DMCA claim - in the format "series-<id>" and "movie-<id>"
   VITE_DISALLOWED_IDS: "",
